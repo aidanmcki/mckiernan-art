@@ -1,0 +1,136 @@
+body {
+  margin: 15px;
+  margin-top: 80px;
+  padding: 0;
+  font-family: 'Marcellus';
+  background: 
+    radial-gradient(at top left, #faf5f9, transparent 125%),
+    radial-gradient(at top right, #edf3ce, transparent 125%),
+    radial-gradient(at bottom left, #e9ecef, transparent 125%),
+    radial-gradient(at bottom right, #def2e6, transparent 125%);
+  background-size: cover;
+  background-attachment: fixed;
+  background-color: #f8f9fa;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  color: #007bff;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background: #acb1b7;
+  width: 80%;
+  margin: auto;
+}
+
+.navbar {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+.carousel {
+  width: 100%;
+  margin: auto;
+}
+
+.carousel img {
+  height: 600px;
+  object-fit: cover;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #343a40;
+  margin-bottom: 15px;
+}
+
+p {
+  color: #495057;
+}
+
+img {
+  margin-bottom: 25px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.about-container img {
+  margin-bottom: 0px;
+}
+
+.about-container {
+  width: 90%;
+  background-color: #efdfd3;
+  padding: 20px;
+}
+
+.about-container h2 {
+  padding-top: 10px;
+}
+
+.contact-form {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.contact-container button {
+  background-color: #747265 !important;
+  color: white;
+  border-radius: 4px;
+}
+
+.contact-container button:hover {
+  background-color: #908e84 !important;
+  cursor: pointer;
+}
+
+.gallery-card {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  text-decoration: none;
+  color: white;
+}
+
+.gallery-card img {
+  width: 100%;
+  display: block;
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.gallery-card:hover img {
+  transform: scale(1.05);
+  filter: brightness(70%);
+}
+
+.gallery-text {
+  position: absolute;
+  bottom: 25px;
+  left: 10px;
+  right: 10px;
+  text-align: center;
+  font-size: 2rem;
+  z-index: 2;
+  text-shadow: #343a40 1px 1px 4px;
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.gallery-card:hover .gallery-text {
+  color: white;
+  transform: translateY(-20px) scale(1.1);
+  
+}
